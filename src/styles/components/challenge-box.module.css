@@ -82,7 +82,7 @@
 
 .challengeActive footer button{
     height: 3rem;
-    width: 10.9rem;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -105,5 +105,44 @@
 
 .challengeActive footer button.successButton{
     background-color: var(--green);
+
+}
+
+
+@media(max-width:800px){
+    .challengeBoxContainer {
+        padding: 2rem;
+        height: 95%;
+        margin-bottom: 1rem;
+    }
+
+     .challengeNotActive stong{
+         max-width: 95%;
+         font-size: 0.01rem;
+     }
+
+    .challengeNotActive p{
+            margin-top: 2rem;
+    }
+
+    .challengeActive footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .challengeActive footer button{
+        width: 100%;
+    }
+
+    .challengeActive main img{
+        width:80px;
+        margin-top: 2rem;
+    }
+
+    .challengeActive main{
+        margin-bottom: 1.5rem;
+    }
+    
 
 }

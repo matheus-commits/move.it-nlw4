@@ -1,6 +1,7 @@
 .countdownContainer{
     display: flex;
     align-items: center;
+    justify-content: center;
     font-family: Rajdhani;
     font-weight: 600;
     color: var(--title);
@@ -73,4 +74,11 @@
     background: var(--white);
     color: var(--text);
     cursor: not-allowed;
+}
+
+@media(max-width:800px){
+    .countdownContainer{
+        max-width: 85vw;
+       
+    }
 }
